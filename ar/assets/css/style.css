@@ -4091,7 +4091,8 @@ input[type=checkbox] {
  
 }
 #slide1 .overlay {
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../../../assets/images/bg/2130.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../../../assets/images/bg/مصنع-الاسمنت.-x512.jpg.webp") no-repeat center;
+
   background-size: cover;
   z-index: 1;
 }
@@ -4099,7 +4100,7 @@ input[type=checkbox] {
   position: relative;
 }
 #slide2 .overlay {
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),  url("../../../assets/images/bg/6229444.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),  url("../../../assets/images/bg/2130.jpg") no-repeat center;
   background-size: cover;
   z-index: 1;
 }
@@ -4109,7 +4110,7 @@ input[type=checkbox] {
   position: relative;
 }
 #slide3 .overlay {
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),  url("../../../assets/images/bg/ISO.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),  url("../../../assets/images/bg/6229444.jpg") no-repeat center;
   background-size: cover;
   z-index: 1;
 }
@@ -4118,14 +4119,20 @@ input[type=checkbox] {
   position: relative;
 }
 #slide4 .overlay {
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),  url("../../../assets/images/bg/1037.jpg")
-    
-
-  no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),  url("../../../assets/images/bg/ISO.jpg") no-repeat center;
   background-size: cover;
   z-index: 1;
 }
 
+#slide5 {
+  position: relative;
+}
+#slide5 .overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),  url("../../../assets/images/bg/1037.jpg") no-repeat center;
+
+  background-size: cover;
+  z-index: 1;
+}
 .slide-details {
   position: relative; 
   z-index: 2; 
@@ -5708,7 +5715,7 @@ ul.footer-widget__horizontal-list li {
 
 .claim-grid-group {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }

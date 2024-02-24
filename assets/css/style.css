@@ -4801,7 +4801,7 @@ only screen and (max-width: 767px) {
  
 }
 #slide1 .overlay {
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../images/bg/2130.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../images/bg/مصنع-الاسمنت.-x512.jpg.webp") no-repeat center;
   background-size: cover;
   z-index: 1;
 }
@@ -4809,7 +4809,7 @@ only screen and (max-width: 767px) {
   position: relative;
 }
 #slide2 .overlay {
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),  url("../images/bg/6229444.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),  url("../images/bg/2130.jpg") no-repeat center;
   background-size: cover;
   z-index: 1;
 }
@@ -4819,7 +4819,7 @@ only screen and (max-width: 767px) {
   position: relative;
 }
 #slide3 .overlay {
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),  url("../images/bg/ISO.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),  url("../images/bg/6229444.jpg") no-repeat center;
   background-size: cover;
   z-index: 1;
 }
@@ -4828,10 +4828,21 @@ only screen and (max-width: 767px) {
   position: relative;
 }
 #slide4 .overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),  url("../images/bg/ISO.jpg") no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+
+#slide5 {
+  position: relative;
+}
+#slide5 .overlay {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),  url("../images/bg/1037.jpg") no-repeat center;
   background-size: cover;
   z-index: 1;
 }
+
+
 
 .slide-details {
   position: relative; 
